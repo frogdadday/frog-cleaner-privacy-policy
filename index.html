@@ -1,14 +1,38 @@
 <!doctype html>
 <html lang="en">
-
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#190d10">
+  <meta name="description" content="Privacy Policy for Frog Cleaner, a free and respectful Android storage review app.">
+  <title>Frog Cleaner Privacy Policy</title>
+  <style>
+    :root { color-scheme: dark; --background:#190d10; --surface:#241216; --frog-red:#ff241a; --warm-white:#fff0ed; --muted:#d7b8ba; --outline:#a88486; }
+    * { box-sizing: border-box; }
+    body { margin:0; min-height:100vh; background:radial-gradient(circle at 88% 8%,rgba(255,36,26,.16),transparent 34rem),linear-gradient(145deg,#190d10,#210e13 56%,#14090c); color:var(--warm-white); font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; font-size:17px; line-height:1.68; }
+    main { width:min(880px,calc(100% - 32px)); margin:0 auto; padding:54px 0 72px; }
+    header { display:flex; align-items:center; gap:18px; margin-bottom:28px; }
+    .frog-mark { width:68px; height:58px; position:relative; flex:0 0 auto; border-radius:48% 48% 44% 44%; background:linear-gradient(145deg,#ff554d,var(--frog-red) 62%,#bd100c); box-shadow:0 10px 32px rgba(255,36,26,.28); }
+    .frog-mark::before,.frog-mark::after { content:""; position:absolute; top:-11px; width:25px; height:25px; border:7px solid var(--frog-red); border-radius:50%; background:#fff0ed; box-shadow:inset 0 0 0 5px #2c0908; }
+    .frog-mark::before { left:5px; } .frog-mark::after { right:5px; }
+    h1 { margin:0; font-size:clamp(2rem,7vw,3.55rem); line-height:1.04; letter-spacing:-.035em; }
+    .tagline { margin:8px 0 0; color:var(--muted); font-weight:650; letter-spacing:.02em; }
+    .policy { padding:clamp(22px,5vw,42px); border:1px solid rgba(168,132,134,.45); border-radius:22px; background:linear-gradient(155deg,rgba(48,23,28,.96),rgba(36,18,22,.98)); box-shadow:0 24px 70px rgba(0,0,0,.34); }
+    .effective { display:inline-block; margin:0 0 12px; padding:6px 11px; border-radius:999px; background:rgba(255,36,26,.13); color:#ffb0aa; font-size:.9rem; font-weight:750; }
+    h2 { margin:30px 0 7px; color:#ff8f88; font-size:1.32rem; line-height:1.3; } h2:first-of-type { margin-top:18px; }
+    p { margin:0 0 14px; } strong { color:#fff; }
+    footer { padding:24px 4px 0; color:var(--muted); text-align:center; font-size:.92rem; }
+    a { color:#ff9993; } a:focus-visible { outline:3px solid var(--frog-red); outline-offset:4px; }
+    @media (max-width:560px) { main { padding-top:30px; } header { align-items:flex-start; } .frog-mark { width:58px; height:50px; margin-top:4px; } .frog-mark::before,.frog-mark::after { width:22px; height:22px; } .policy { border-radius:18px; } }
+  </style>
 </head>
 <body>
   <main>
-    <header><div class="frog-mark" aria-hidden="true"></div><div><h1>Frog Cleaner</h1><p class="tagline">Privacy Policy · Free. Simple. Respectful.</p></div></header>
+    <header></div><div><h1>Frog Cleaner</h1><p class="tagline">Privacy Policy · Free. Simple. Respectful.</p></div></header>
     <article class="policy">
       <p class="effective">Effective date: September 15, 2026</p>
       <h2>Our promise</h2>
-      <p>Frog Cleaner is free to use. It has no ads, subscriptions, accounts, analytics, or tracking. I do NOT collect, sell, or share your personal information. Nor do I have access to such.</p>
+      <p>Frog Cleaner is free to use. It has no ads, subscriptions, accounts, analytics, or tracking. We do not collect, sell, or share your personal information.</p>
       <h2>Information the app can access</h2>
       <p>Frog Cleaner only accesses files in folders you choose through Android, or shared storage after you explicitly enable Full device analysis in Android Settings. It may read file names, locations, sizes, and last-modified dates to show you a storage review.</p>
       <p>Exact Duplicate Finder reads complete file contents only on your device to calculate comparison hashes. Photo and video previews are created locally on your device. File contents, names, locations, comparison hashes, and previews are not uploaded.</p>
@@ -24,7 +48,7 @@
       <h2>Changes to this policy</h2>
       <p>If Frog Cleaner's data practices change, this policy will be updated before the changed version is released.</p>
     </article>
-    <footer>Frog Cleaner · No catch. Just a free app made to be useful. Sometimes you just want something to exist, so you make it, then let others have it too.<br><a href="https://github.com/frogdadday">Developer profile on GitHub</a></footer>
+    <footer>Frog Cleaner · No catch. Just a free app made to be useful.<br><a href="https://github.com/frogdadday">Developer profile on GitHub</a></footer>
   </main>
 </body>
 </html>
